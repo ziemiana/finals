@@ -1,0 +1,52 @@
+<html>
+ <head>
+  <title>
+   GCash
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+ </head>
+ <body class="bg-blue-500 flex items-center justify-center min-h-screen">
+  <div class="text-center text-white">
+   <img alt="GCash logo" class="mx-auto mb-4" height="100" src="https://storage.googleapis.com/a1aa/image/B1KBdVBGFrJBHlQtujvrpi7He1OPpoULNu7r7BuJVuqOhg7JA.jpg" width="100"/>
+   <h1 class="text-3xl font-bold mb-8">
+    GCash
+   </h1>
+   <div class="mb-4">
+    <label class="block text-lg mb-2" for="mobile-number">
+     Enter your mobile number
+    </label>
+    <div class="flex items-center justify-center">
+     <span class="text-lg">
+      +63
+     </span>
+     <input class="ml-2 p-2 border-b-2 border-white bg-transparent text-lg focus:outline-none" id="mobile-number" placeholder="" type="text"/>
+    </div>
+    <p class="mt-2 text-sm">
+     Available for all networks!
+    </p>
+   </div>
+   <p class="text-sm mb-8">
+    By tapping next, we'll collect your mobile number's network information to be able to send you a One-Time Password (OTP).
+   </p>
+   <button class="bg-white text-blue-500 font-bold py-2 px-8 rounded-full">
+    NEXT
+   </button>
+   <div class="mt-8 text-xs">
+    <p>
+     © 2022 GCash.com | All rights reserved.
+    </p>
+    <p>
+     <a class="underline" href="#">
+      Privacy Policy
+     </a>
+     |
+     <a class="underline" href="#">
+      Terms and Conditions
+     </a>
+    </p>
+   </div>
+  </div>
+ </body>
+</html>
