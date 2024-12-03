@@ -1,52 +1,181 @@
-<html>
- <head>
-  <title>
-   GCash
-  </title>
-  <script src="https://cdn.tailwindcss.com">
-  </script>
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
- </head>
- <body class="bg-blue-500 flex items-center justify-center min-h-screen">
-  <div class="text-center text-white">
-   <img alt="GCash logo" class="mx-auto mb-4" height="100" src="https://storage.googleapis.com/a1aa/image/B1KBdVBGFrJBHlQtujvrpi7He1OPpoULNu7r7BuJVuqOhg7JA.jpg" width="100"/>
-   <h1 class="text-3xl font-bold mb-8">
-    GCash
-   </h1>
-   <div class="mb-4">
-    <label class="block text-lg mb-2" for="mobile-number">
-     Enter your mobile number
-    </label>
-    <div class="flex items-center justify-center">
-     <span class="text-lg">
-      +63
-     </span>
-     <input class="ml-2 p-2 border-b-2 border-white bg-transparent text-lg focus:outline-none" id="mobile-number" placeholder="" type="text"/>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GCash Registration</title>
+  <link href="https://fonts.googleapis.com/css?family=Karla|Poppins|Poppins:600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="app" class="root-app">
+    <div class="main-container login-page">
+      <div class="page-container">
+        <header>
+          <div class="page-item">
+            <img class="gcash-icon" src="gcash-logo.png" alt="GCash Logo">
+          </div>
+        </header>
+
+        <div class="page-main content-center">
+          <p class="enter-mobile-number-label">Enter your mobile number</p>
+          <div class="login">
+            <div class="number-field underlined">
+              <p class="area-code">+63</p>
+              <input type="tel" class="mobile-input underlined" maxlength="12" inputmode="numeric" placeholder="Enter your number">
+            </div>
+          </div>
+          <p class="network-available">Available for all networks!</p>
+        </div>
+
+        <footer>
+          <div class="privacy-message">
+            <p>By tapping next, we'll collect your mobile number's network information to send you a One-Time Password (OTP).</p>
+          </div>
+          <div class="submit-button">
+            <button type="button" class="next-button">Next</button>
+          </div>
+          <div class="footer-view">
+            <div class="page-item consent">
+              <p class="copyright">© 2024 GCash.com | All rights reserved.</p>
+              <div class="link-container">
+                <a href="#/policy" class="policy">Privacy Policy</a>
+                <span class="separator">|</span>
+                <a href="#/terms" class="terms-and-conditions">Terms and Conditions</a>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
     </div>
-    <p class="mt-2 text-sm">
-     Available for all networks!
-    </p>
-   </div>
-   <p class="text-sm mb-8">
-    By tapping next, we'll collect your mobile number's network information to be able to send you a One-Time Password (OTP).
-   </p>
-   <button class="bg-white text-blue-500 font-bold py-2 px-8 rounded-full">
-    NEXT
-   </button>
-   <div class="mt-8 text-xs">
-    <p>
-     © 2022 GCash.com | All rights reserved.
-    </p>
-    <p>
-     <a class="underline" href="#">
-      Privacy Policy
-     </a>
-     |
-     <a class="underline" href="#">
-      Terms and Conditions
-     </a>
-    </p>
-   </div>
   </div>
- </body>
+</body>
 </html>
+<style>
+/* General Styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.root-app {
+  width: 100%;
+  max-width: 480px;
+}
+
+.page-container {
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+header {
+  text-align: center;
+}
+
+.gcash-icon {
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+.page-main {
+  text-align: center;
+}
+
+.enter-mobile-number-label {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.number-field {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.area-code {
+  font-size: 18px;
+  font-weight: 600;
+  margin-right: 10px;
+}
+
+.mobile-input {
+  width: 70%;
+  padding: 10px;
+  font-size: 18px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  outline: none;
+}
+
+.mobile-input:focus {
+  border-color: #5e35b1;
+}
+
+.network-available {
+  font-size: 14px;
+  color: #4caf50;
+  margin-top: 10px;
+}
+
+footer {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.privacy-message {
+  font-size: 12px;
+  color: #757575;
+  margin-bottom: 20px;
+}
+
+.submit-button {
+  margin-bottom: 20px;
+}
+
+.next-button {
+  padding: 10px 20px;
+  background-color: #5e35b1;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.next-button:hover {
+  background-color: #512a8a;
+}
+
+.footer-view {
+  font-size: 12px;
+  color: #757575;
+}
+
+.footer-view .consent {
+  margin-bottom: 10px;
+}
+
+.link-container {
+  text-align: center;
+}
+
+.policy, .terms-and-conditions {
+  color: #5e35b1;
+  text-decoration: none;
+}
+
+.separator {
+  margin: 0 5px;
+}
+</style>
