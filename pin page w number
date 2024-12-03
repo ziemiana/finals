@@ -1,0 +1,75 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   GCash
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+ </head>
+ <body class="bg-blue-500 flex flex-col items-center justify-center min-h-screen text-white">
+  <div class="text-center">
+   <img alt="GCash logo" class="mx-auto mb-4" height="100" src="https://storage.googleapis.com/a1aa/image/236Jn3iEN9r9EdwzDUWJNcgWxab2xj7ffDE2ikVHNk3EAB3TA.jpg" width="100"/>
+   <h1 class="text-3xl font-bold mb-6">
+    GCash
+   </h1>
+   <p class="mb-4">
+    Put your mobile number to get started.
+   </p>
+   <div class="flex items-center justify-center mb-4">
+    <span class="text-2xl">
+     +63
+    </span>
+    <input class="bg-transparent border-b-2 border-white text-2xl ml-2 outline-none" type="text" value="956 834 3231"/>
+   </div>
+   <p class="text-sm mb-6">
+    By tapping next, we'll collect your mobile number's network information to be able to send you a One-Time Password (OTP).
+   </p>
+  </div>
+  <div class="bg-gray-200 p-4 rounded-lg shadow-lg w-full max-w-md mx-auto">
+   <div class="grid grid-cols-3 gap-4 text-black text-2xl">
+    <button class="py-4">
+     1
+    </button>
+    <button class="py-4">
+     2
+    </button>
+    <button class="py-4">
+     3
+    </button>
+    <button class="py-4">
+     4
+    </button>
+    <button class="py-4">
+     5
+    </button>
+    <button class="py-4">
+     6
+    </button>
+    <button class="py-4">
+     7
+    </button>
+    <button class="py-4">
+     8
+    </button>
+    <button class="py-4">
+     9
+    </button>
+    <button class="py-4">
+     0
+    </button>
+    <button class="py-4">
+     .
+    </button>
+    <button class="py-4">
+     -
+    </button>
+    <button class="py-4 col-span-2">
+     Go
+    </button>
+   </div>
+  </div>
+ </body>
+</html>
