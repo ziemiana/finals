@@ -1,0 +1,233 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   GCash
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+            font-family: 'Roboto', sans-serif;
+        }
+  </style>
+ </head>
+ <body class="bg-blue-500 text-white">
+  <!-- MPIN Screen -->
+  <div class="min-h-screen flex flex-col justify-between items-center p-4">
+   <div class="flex flex-col items-center mt-8">
+    <img alt="GCash logo" class="mb-4" height="100" src="https://storage.googleapis.com/a1aa/image/AKyTl6lghi5dFtu7sn9GlZrgzVwHgnclkg8ffcHWm747CB3TA.jpg" width="100"/>
+    <p class="text-sm">
+     0917 **** ****
+     <a class="underline" href="#">
+      Change Number
+     </a>
+    </p>
+    <h2 class="text-xl font-bold mt-4">
+     Enter your MPIN
+    </h2>
+    <p class="text-sm mt-2">
+     Never share your MPIN with anyone.
+    </p>
+    <div class="flex space-x-2 mt-4">
+     <div class="w-3 h-3 bg-white rounded-full">
+     </div>
+     <div class="w-3 h-3 bg-white rounded-full">
+     </div>
+     <div class="w-3 h-3 bg-white rounded-full">
+     </div>
+     <div class="w-3 h-3 bg-white rounded-full">
+     </div>
+    </div>
+    <div class="grid grid-cols-3 gap-4 mt-8">
+     <button class="w-16 h-16 bg-blue-700 rounded-full text-2xl">
+      1
+     </button>
+     <button class="w-16 h-16 bg-blue-700 rounded-full text-2xl">
+      2
+     </button>
+     <button class="w-16 h-16 bg-blue-700 rounded-full text-2xl">
+      3
+     </button>
+     <button class="w-16 h-16 bg-blue-700 rounded-full text-2xl">
+      4
+     </button>
+     <button class="w-16 h-16 bg-blue-700 rounded-full text-2xl">
+      5
+     </button>
+     <button class="w-16 h-16 bg-blue-700 rounded-full text-2xl">
+      6
+     </button>
+     <button class="w-16 h-16 bg-blue-700 rounded-full text-2xl">
+      7
+     </button>
+     <button class="w-16 h-16 bg-blue-700 rounded-full text-2xl">
+      8
+     </button>
+     <button class="w-16 h-16 bg-blue-700 rounded-full text-2xl">
+      9
+     </button>
+     <div>
+     </div>
+     <button class="w-16 h-16 bg-blue-700 rounded-full text-2xl">
+      0
+     </button>
+     <div>
+     </div>
+    </div>
+   </div>
+   <div class="flex justify-between w-full px-4 mb-4">
+    <a class="underline" href="#">
+     Help Center
+    </a>
+    <p>
+     v5.31.1559
+    </p>
+    <a class="underline" href="#">
+     Forgot MPIN?
+    </a>
+   </div>
+  </div>
+  <!-- Main Screen -->
+  <div class="min-h-screen bg-white text-black">
+   <div class="bg-blue-500 text-white p-4">
+    <div class="flex justify-between items-center">
+     <img alt="GCash logo" class="h-8" height="100" src="https://storage.googleapis.com/a1aa/image/AKyTl6lghi5dFtu7sn9GlZrgzVwHgnclkg8ffcHWm747CB3TA.jpg" width="100"/>
+     <i class="fas fa-envelope text-xl">
+     </i>
+    </div>
+    <div class="mt-4">
+     <h2 class="text-2xl font-bold">
+      PHP 1,243.08
+     </h2>
+     <p class="text-sm">
+      Available Balance
+     </p>
+    </div>
+   </div>
+   <div class="p-4">
+    <div class="grid grid-cols-4 gap-4 text-center text-sm">
+     <div>
+      <img alt="Cash In icon" class="mx-auto mb-2" height="50" src="https://storage.googleapis.com/a1aa/image/hCigra5D4qreMiPjfhjOTtBkYf4QFQycRfmz4tKlBGN2LEcPB.jpg" width="50"/>
+      <p>
+       Cash In
+      </p>
+     </div>
+     <div>
+      <img alt="Send Money icon" class="mx-auto mb-2" height="50" src="https://storage.googleapis.com/a1aa/image/xS9cuWNPyrqDGxf4LBrKkW5n9sU0g6qvIgMgVpfeXL04FCunA.jpg" width="50"/>
+      <p>
+       Send
+      </p>
+     </div>
+     <div>
+      <img alt="Save Money icon" class="mx-auto mb-2" height="50" src="https://storage.googleapis.com/a1aa/image/nt6fItg4x62GfE4xL1yqgPOpD03tPgZrV8Ixu6Vn9IoBDB3TA.jpg" width="50"/>
+      <p>
+       Save Money
+      </p>
+     </div>
+     <div>
+      <img alt="Buy Load icon" class="mx-auto mb-2" height="50" src="https://storage.googleapis.com/a1aa/image/lX0jp2ZmsHblElrfefojFwPFf3CFwAabfMWRwW8EwhgUXI4eE.jpg" width="50"/>
+      <p>
+       Buy Load
+      </p>
+     </div>
+     <div>
+      <img alt="GCash Forest icon" class="mx-auto mb-2" height="50" src="https://storage.googleapis.com/a1aa/image/ejIs4W1JGyzSHyGyfG3KvUgvUKd36kNroRNHEeT3GrNxFCunA.jpg" width="50"/>
+      <p>
+       GCash Forest
+      </p>
+     </div>
+     <div>
+      <img alt="Manage Credit icon" class="mx-auto mb-2" height="50" src="https://storage.googleapis.com/a1aa/image/d1UroQS360YUN1sekvW80cTos2kxfjpeYleBPz4it3UYMEcPB.jpg" width="50"/>
+      <p>
+       Manage Credit
+      </p>
+     </div>
+     <div>
+      <img alt="Pay Bills icon" class="mx-auto mb-2" height="50" src="https://storage.googleapis.com/a1aa/image/R0JxSHf7YoVVBamNQNNjVYe5vJiRcU8YJTvPFpZdDqDADB3TA.jpg" width="50"/>
+      <p>
+       Pay Bills
+      </p>
+     </div>
+     <div>
+      <img alt="Pay QR icon" class="mx-auto mb-2" height="50" src="https://storage.googleapis.com/a1aa/image/v9FDqFJyBFIQEJVISafLNKMT0plEpGMUG3MedsUHyHSFDB3TA.jpg" width="50"/>
+      <p>
+       Pay QR
+      </p>
+     </div>
+     <div>
+      <img alt="Lazada icon" class="mx-auto mb-2" height="50" src="https://storage.googleapis.com/a1aa/image/t39eXKlxrE2RQCGi89NcpebAx3216y72r3fONJ3xDZqEGCunA.jpg" width="50"/>
+      <p>
+       Lazada
+      </p>
+     </div>
+     <div>
+      <img alt="Bank Transfer icon" class="mx-auto mb-2" height="50" src="https://storage.googleapis.com/a1aa/image/WU9e0t30GCTtWavm8kJLwqrUHdvm031ZcchEoasMm00fCB3TA.jpg" width="50"/>
+      <p>
+       Bank Transfer
+      </p>
+     </div>
+     <div>
+      <img alt="KKB icon" class="mx-auto mb-2" height="50" src="https://storage.googleapis.com/a1aa/image/RdaWlTetmDSrFCosyEJfe6H8H9h2YU4Ti1bTAQ4fY3bSMEcPB.jpg" width="50"/>
+      <p>
+       KKB
+      </p>
+     </div>
+     <div>
+      <img alt="Show More icon" class="mx-auto mb-2" height="50" src="https://storage.googleapis.com/a1aa/image/k9Wb3NaO2OYeLqlCVEfSWIwZXsC4jWehXYCgF0o2RoXsFCunA.jpg" width="50"/>
+      <p>
+       Show More
+      </p>
+     </div>
+    </div>
+    <div class="mt-4">
+     <div class="flex justify-between items-center">
+      <p class="font-bold">
+       Transaction History
+      </p>
+      <i class="fas fa-chevron-right">
+      </i>
+     </div>
+     <hr class="my-2"/>
+    </div>
+    <div class="mt-4">
+     <p class="font-bold">
+      More to look forward to
+     </p>
+     <p class="text-sm">
+      Because you deserve only the best from us
+     </p>
+     <div class="bg-blue-100 p-4 rounded-lg mt-4">
+      <div class="flex items-center">
+       <img alt="Verify Email icon" class="mr-4" height="50" src="https://storage.googleapis.com/a1aa/image/lH1f9Q8fdNsjqEVbthimlcWw9pNL9OR8ry7VechlB0fdMEcPB.jpg" width="50"/>
+       <div>
+        <p class="font-bold">
+         Verify your Email
+        </p>
+        <p class="text-sm">
+         Unlock additional features by updating your email
+        </p>
+       </div>
+      </div>
+      <button class="bg-blue-500 text-white w-full py-2 rounded-lg mt-4">
+       Verify Email
+      </button>
+     </div>
+    </div>
+   </div>
+   <div class="fixed bottom-0 left-0 right-0 bg-white p-4 flex justify-around border-t">
+    <i class="fas fa-home text-xl">
+    </i>
+    <i class="fas fa-wallet text-xl">
+    </i>
+    <i class="fas fa-exchange-alt text-xl">
+    </i>
+    <i class="fas fa-user text-xl">
+    </i>
+   </div>
+  </div>
+ </body>
+</html>
